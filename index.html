@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinEvolution</title>
+    <link rel="shortcut icon" href="src/img/icon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="src/css/reset.css"> -->
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <h1>Em MinEvolution você é um ser vivo tentando o seu melhor para evoluir em um ser superior.</h1>
+        <h2>Objetivo</h2>
+        <ul>
+            <li>O objetivo do jogo é, em 10 rodadas, evoluir seu Min o máximo possível.</li>
+            <li>Vence o jogador que chegar mais longe em 10 rodadas, ou que conseguir chegar à evolução final antes de 10 rodadas.</li>
+            <li>Os jogadores também podem escolher jogar sem limite de rodadas. Nesse modo de jogo, aquele que conseguir a evolução máxima primeiro, ganha.</li>
+        </ul>
+        <h2>Preparação</h2>
+        <ul>
+            <li>Cada jogador receberá um tabuleiro próprio. Os jogadores devem competir para chegar mais longe na grade da evolução.</li>
+            <li>Cada jogador escolhe um Min, e coleta 4 totens com as 4 formas desse Min.</li>
+            <li>As Cartas de Morte devem ser embaralhadas e colocadas em um monte no meio da mesa.</li>
+            <li>As Cartas de Ação devem ser embaralhadas e colocadas em um monte ao lado das Cartas de Morte.</li>
+            <li>As Cartas de Ação devem ser embaralhadas e colocadas em um monte ao lado das Cartas de Morte.</li>
+            <li>O dado de movimento e direção serão colocados próximo às Cartas.</li>
+        </ul>
+        <h2>Inicio</h2>
+        <ul>
+            <li>Role um dado de movimento para andar por cada marcação.</li>
+            <li>Caso chegue a uma ramificação, role um dado de direção para escolher ir para a direita, esquerda ou em frente.</li>
+            <li>Nunca volte para trás ao rolar dado de direção.</li>
+            <li>Se houver apenas dois caminhos e rolar para frente, o jogador poderá escolher a direção de preferência.</li>
+        </ul>
+        <h2>Divisão de tabuleiro</h2>
+        <ul>
+            <li>O tabuleiro é dividido em 4 níveis: Mar, Floresta, Civilização Moderna e Civilização Futurista.</li>
+            <li>Quando o jogador atravessa a linha pontilhada, ele evolui, então poderá trocar o totem para a próxima evolução de seu Min. </li>
+        </ul>
+        <h2>Cartas</h2>
+        <ul>
+            <li>Ao parar em marcações de cor AMARELA, o jogador deve pegar uma Carta de Ação.</li>
+            <li>Ao parar em uma marcação de cor VERMELHA, o jogador não pode mais seguir em frente. O jogador deve pegar uma Carta de Morte, e voltar para o início do nível. </li>
+        </ul>
+        <h2>Marcações</h2>
+        <ul>
+            <li>Marcações AMARELAS = Carta de Ação</li>
+            <li>Marcações AZUIS = Caminhos normais </li>
+            <li>Marcações VERMELHAS = Morte</li>
+        </ul>
+        <h2>Movimentação</h2>
+        <ul>
+            <li>Feita por dados ou dado eletrônico programado por Arduino.</li>
+            <li>Acompanha 1 dado de 6 lados e 1 dado de 3 lados.</li>
+            <li>O dado de 6 lados define a quantidade de casas andadas do Min e o de 3 lados define o caminho a ser seguido e ramificações.</li>
+        </ul>
+        <h3>Ramificações</h3>
+        <ul>
+            <li>Número 1 = Direita</li>
+            <li>Número 2 = Frente</li>
+            <li>Número 3 = Esquerda</li>
+        </ul>
+    </main>
+    <footer></footer>
+</body>
+</html>
